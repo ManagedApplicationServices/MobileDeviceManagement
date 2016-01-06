@@ -51,8 +51,11 @@ namespace MobileDeviceManagement
             gvItems.DataSource = GetData(GetItemsQuery);
             gvItems.DataBind();
 
-            gvItems.UseAccessibleHeader = true;
-            gvItems.HeaderRow.TableSection = TableRowSection.TableHeader;
+            if(gvItems.HeaderRow != null)
+            {
+                gvItems.UseAccessibleHeader = true;
+                gvItems.HeaderRow.TableSection = TableRowSection.TableHeader;
+            }
         }
         protected void gvItems_RowCommand(object sender, GridViewCommandEventArgs e)
         {
