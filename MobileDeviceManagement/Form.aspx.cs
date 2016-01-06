@@ -71,9 +71,9 @@ namespace MobileDeviceManagement
                 (PdfPageOrientation)Enum.Parse(typeof(PdfPageOrientation),
                 pdf_orientation, true);
 
-            int webPageWidth = 1024;
+            //int webPageWidth = 1024;
 
-            int webPageHeight = 0;
+            //int webPageHeight = 0;
 
             // instantiate a html to pdf converter object
             HtmlToPdf converter = new HtmlToPdf();
@@ -81,8 +81,8 @@ namespace MobileDeviceManagement
             // set converter options
             converter.Options.PdfPageSize = pageSize;
             converter.Options.PdfPageOrientation = pdfOrientation;
-            converter.Options.WebPageWidth = webPageWidth;
-            converter.Options.WebPageHeight = webPageHeight;
+            //converter.Options.WebPageWidth = webPageWidth;
+            //converter.Options.WebPageHeight = webPageHeight;
 
             // create a new pdf document converting an url
             PdfDocument doc = converter.ConvertUrl(url);

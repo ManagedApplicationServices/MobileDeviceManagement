@@ -38,18 +38,20 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-        <div class="container body-content">
-            <div class="container">
+        <div class="container body-content" style="font-size: 16px;">
+            <div class="page-header">
                 <div class="row">
-                    <div>
+                    <div class="container">
                         <h3>RICOH (SINGAPORE) PTE LTD <small class="pull-right p-r-lg">Form No: ISMS-POL-05-F1-02</small>
                         </h3>
                     </div>
                 </div>
                 <div class="row">
-                    <h3 class="text-center">DEVICE ISSUE FORM <small class="pull-right p-r-lg">Rev:00
+                    <div class="container">
+                        <h3 class="text-center">DEVICE ISSUE FORM <small class="pull-right p-r-lg">Rev:00
                     <br />
-                        Page 1 of 1</small></h3>
+                            Page 1 of 1</small></h3>
+                    </div>
                 </div>
             </div>
             <div class="container">
